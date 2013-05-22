@@ -61,8 +61,8 @@
     <Content Include="Images\logo_landscape.jpg" />
     <Content Include="Images\logo_portrait.jpg" />
     <Content Include="lab1.aspx" />
+    <Content Include="validate.aspx" />
     <Content Include="lesson3.aspx" />
-    <Content Include="lesson3_new.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
@@ -136,19 +136,19 @@
     <Compile Include="lab1.aspx.designer.cs">
       <DependentUpon>lab1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="validate.aspx.cs">
+      <DependentUpon>validate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="validate.aspx.designer.cs">
+      <DependentUpon>validate.aspx</DependentUpon>
+    </Compile>
     <Compile Include="lesson3.aspx.cs">
       <DependentUpon>lesson3.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="lesson3.aspx.designer.cs">
       <DependentUpon>lesson3.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="lesson3_new.aspx.cs">
-      <DependentUpon>lesson3_new.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="lesson3_new.aspx.designer.cs">
-      <DependentUpon>lesson3_new.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
